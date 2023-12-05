@@ -4,7 +4,7 @@ const port = 8080
 const mongoDB= require('./db');
 mongoDB();
 app.use((req,res,next)=>{
-  res.setHeader("Access-Control-Allow-Origin","http://localhost:3000");
+  res.setHeader("Access-Control-Allow-Origin","https://stellar-shortbread-5121bf.netlify.app/");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-type, Accept"
